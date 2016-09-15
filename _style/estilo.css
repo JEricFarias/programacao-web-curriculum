@@ -1,0 +1,136 @@
+@import 'https://fonts.googleapis.com/css?family=Archivo+Black';
+
+/*
+*
+*
+*   index
+*
+*/
+
+
+body{
+    background-color: aliceblue; 
+}
+
+div.corpo{
+    position: absolute;
+    left: 50%;
+    margin-left: -300pt;
+    margin-top: -6pt;
+    text-align: center;
+    width: 700px;
+    font-family: sans-serif;
+}
+
+div.corpo ul.lista-esquerda li {
+    text-align: left;
+    list-style: none;   
+}
+
+figure.bloco-fotos{
+    position: relative; 
+    width: 200pt;
+    height: 200pt;
+    display: block;
+    left: 50%;
+    margin-left: -100pt;;
+}
+
+figure.bloco-fotos img{
+    border-radius: 100%;
+    width: 100%;
+}
+
+figure.bloco-fotos figcaption{
+    position: absolute;
+
+    color:white;
+    transition-duration: 1s;
+    box-sizing: border-box;
+    height: 100%;
+    width:100%;
+    border-radius: 100%;
+    top:0px;
+    background-color: rgba(16, 16, 16, 0.78);
+    opacity: 0;
+}
+
+figure.bloco-fotos figcaption:hover{
+    opacity: 1;
+}
+
+figure.bloco-fotos figcaption p{
+    position: absolute;
+    top: 80pt;
+    left: 10pt;
+    font-weight: bolder;
+    font-size: 17pt;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:#1a6fb7;
+}
+
+a:hover{
+    text-decoration: underline; 
+}
+
+h1, h2{
+    font-family: 'Archivo Black', sans-serif;
+    rgba(2, 2, 2, 0.9);
+}
+
+p.esquerda{
+    text-align: left;
+}
+
+
+
+
+/*Menu Navegação*/
+div#menu{ 
+    position: relative;
+    margin-left: -35pt;
+}
+
+div#menu nav ul{
+    list-style: none;
+    margin-top: 24px;
+    
+}
+
+div#menu nav ul li{
+    display: inline;
+    background: #1a6fb7;
+    padding: 12px;
+}
+
+div#menu nav a{
+    text-decoration: none;
+    font-weight: bolder;
+    color:white;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+div#menu nav li:hover{
+    background-color: #5c5151; 
+}
+
+
+div#redes-sociais span.social-midia i{
+    margin-top: 30px;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 20px;
+    font-size: 35pt;
+    color: aliceblue;
+    background-color: #1a6fb7;
+    border-radius: 100%;
+}
+
+div#redes-sociais span.social-midia i:hover{
+    background-color: #5c5151;
+}
+
